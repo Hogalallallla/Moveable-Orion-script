@@ -1,10 +1,10 @@
 --About--
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Tresenblury", HidePremium = false, IntroText = "Loading script...", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Tresenblury (DISCOUNTINUED)", HidePremium = false, IntroText = "Loading script...", SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Welcome",
-	Content = "Welcome to my script - MATTSUN9746 :D",
+	Content = "Welcome to my script - MATTSUN9746 :D sadly the script is discounted :(",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
