@@ -226,9 +226,7 @@ game:GetService("UserInputService").JumpRequest:connect(function()
 end)
   	end    
 })
-Tab9:AddParagraph("this script is made by MATTSUN9746 thanks for using my script and i have to tell you this is best script because it is moveable so dont use my non moveable we will update this script only here but we will update this script less maybe 2 days","Credits")
-Tab9:AddParagraph("And if you are feeling any problem please report it at email = sandhya.jnp2012@gmail.com from the email app","Reports")
-Tab9:AddParagraph("Same as reports email me - sandhya.jnp2012@gmail.com from email app and type suggestions instead","Suggestions")
+CoolParagraph9:Set("this script is made by MATTSUN9746 Thanks for using my script we will update this script and dont use non moveable script because we will not update that only use moveable tresenblury script!", "Credits")
 
 --Main--
 
