@@ -1,10 +1,10 @@
 --About--
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Tresenblury (DISCOUNTINUED)", HidePremium = false, IntroText = "Loading script...", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Tresenblury", HidePremium = false, IntroText = "Loading script...", SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Welcome",
-	Content = "Welcome to my script - MATTSUN9746 :D sadly the script is discounted :(",
+	Content = "Welcome to my script - MATTSUN9746 :D",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -12,7 +12,7 @@ OrionLib:MakeNotification({
 --Tabs--
 
 local Tab9 = Window:MakeTab({
-	Name = "Credits",
+	Name = "Credits,reports and suggestions",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -60,7 +60,7 @@ local Tab6 = Window:MakeTab({
 --Section--
 
 local Section = Tab9:AddSection({
-	Name = "Made By Roblox user named=MATTSUN9746 thanks for using my script :D"
+	Name = "Credits section"
 })
 local Section = Tab8:AddSection({
 	Name = "Humanoid section"
@@ -226,6 +226,9 @@ game:GetService("UserInputService").JumpRequest:connect(function()
 end)
   	end    
 })
+Tab9:AddParagraph("this script is made by MATTSUN9746 thanks for using my script and i have to tell you this is best script because it is moveable so dont use my non moveable we will update this script only here but we will update this script less maybe 2 days","Credits")
+Tab9:AddParagraph("And if you are feeling any problem please report it at email = sandhya.jnp2012@gmail.com from the email app","Reports")
+Tab9:AddParagraph("Same as reports email me - sandhya.jnp2012@gmail.com from email app and type suggestions instead","Suggestions")
 
 --Main--
 
